@@ -5,6 +5,6 @@
 public class Coins {
 	public static void main(String[] args) {
 		int quantity = Integer.parseInt(args[0]);
-		System.out.println("use " + (quantity/25) + " quarters and " + (quantity%25) + " cents.");
+		System.out.println("use " + (quantity/25) + " quarters and " + (quantity%25) + " cents");
 	}
 }
