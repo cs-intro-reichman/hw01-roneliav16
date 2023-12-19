@@ -4,7 +4,11 @@
  * Write a program that tests if three given integers form a triangle.
  */ 
 public class Triangle {
-	public static void main(String[] args) {
-		// Put your code here	
+	public static void main(String[] args){
+		int num1 = Integer.parseInt(args[0]);
+		int num2 = Integer.parseInt(args[1]);
+		int num3 = Integer.parseInt(args[2]);
+		boolean checkIfTriangle = (num1 + num2) > num3 && (num2 + num3) > num1 && (num1 + num3) > num2;
+		System.out.println(num1 + ", " + num2 + ", " + num3 + ": " + checkIfTriangle);
 	}
 }
